@@ -18,7 +18,7 @@ if __name__ == '__main__':
     print('Поехали, ваше первое слово?')
 
 
-while player.number_words_used() < basic_word.counting_subwords(): # цикл для принятия слов от пользователя и последующей проверки их
+while player.count_words_used() < basic_word.counting_subwords(): # цикл для принятия слов от пользователя и последующей проверки их
 
     user_input = input().strip().lower()
 
