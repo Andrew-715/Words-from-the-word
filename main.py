@@ -39,4 +39,4 @@ while player.count_words_used() < basic_word.counting_subwords(): # цикл д�
         print('Верно')
         player.user_word(user_input)
 
-print(f'Игра закончена! Вы угадали {player.number_words_used()} слов')
+print(f'Игра закончена! Вы угадали {player.count_words_used()} слов')
